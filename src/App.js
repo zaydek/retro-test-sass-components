@@ -1,6 +1,5 @@
 import sass from "sass-components"
 
-// 0 4px 16px -8px hsla(0, 0%, 0%, 0.25),
 sass.global(`
 
 @use "sass:color";
@@ -46,7 +45,7 @@ const Button = sass.button(`
 	box-shadow: $shadow;
 
 	&:hover {
-		background-color: color.adjust($gray, $lightness: 1.125);
+		background-color: color.adjust($gray, $lightness: 1.125%);
 	}
 	&:focus {
 		box-shadow: $focus-shadow;
